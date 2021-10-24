@@ -1,0 +1,122 @@
+
+
+body {
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contents {
+  background-color: #eaeaea;
+  padding: 30px 0;
+  place-content: space-around;
+  min-width: 20%;
+  border-bottom: 2px solid #7d8597;
+}
+.contents a {
+  color: #124e78;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  text-shadow: 2px 3px 1px rgb(210, 210, 210);
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-style: italic;
+}
+
+h3 {
+  font-weight: 100;
+}
+a {
+  color: rgb(91, 91, 91);
+}
+ul {
+  list-style-type: circle;
+}
+#aviation-skills {
+  list-style: none;
+}
+
+#aviation-skills li::before {
+    content: '';
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    background-size: 24px;
+    background-image: url("../image/Transport_Plane.png");
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+
+ul li {
+  font-style: italic;
+  margin: 10px 0;
+  line-height: 36px;
+} 
+#highlight {
+  text-decoration: underline;
+  font-weight: 800;
+}
+.header {
+  border-bottom: 2px solid #7d8597;
+}
+.person-image {
+  margin: auto;
+}
+.header-section {  
+  place-self: center;
+} 
+
+/* .header-name {
+  text-align: right;
+} */
+.sub-header {
+  font-style: italic;
+}
+.contact-information {
+  text-align: right;
+}
+.section {
+  display: flex;
+}
+
+.section-name {
+  text-align: center;
+}
+.section-content {
+  border-top: 2px solid #7d8597; ;
+}
+#person-profile {
+  border-top: none;
+}
+.work-time-span {
+  font-size: 1rem;
+  color: #7d8597;
+}
+.employer-name {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+.work-position {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+.list-container {
+  display: flex;
+  place-content: center;
+
+}
+
+
+    
+
+
+
+
+	
+
+
+
